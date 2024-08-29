@@ -1,6 +1,6 @@
-@import url("https://cdn.jsdelivr.net/gh/AushevAhmad/awesome-css@modules/declutter.css");
-@import url("https://cdn.jsdelivr.net/gh/tom22k/discord-css@main/Themes/HideNitroUpsellV2.css");
-@import url("https://cdn.jsdelivr.net/gh/AushevAhmad/awesome-css@modules/custom-bar-prompt.css");
+@import url("https://aushevahmad.github.io/awesome-css/modules/declutter.css");
+@import url("https://aushevahmad.github.io/awesome-css/modules/custom-bar-prompt.css");
+@import url("https://raw.githubusercontent.com/tom22k/discord-css/main/Themes/HideNitroUpsellV2.css");
 :root {
     --image-link: url("https://cdn.discordapp.com/emojis/1135700464596431070.webp?size=96&quality=lossless");
     --prompt-text: "be silly :3";
