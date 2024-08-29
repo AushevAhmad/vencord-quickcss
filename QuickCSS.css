@@ -1,0 +1,32 @@
+@import url("https://cdn.jsdelivr.net/gh/AushevAhmad/awesome-css@modules/declutter.css");
+@import url("https://cdn.jsdelivr.net/gh/tom22k/discord-css@main/Themes/HideNitroUpsellV2.css");
+@import url("https://cdn.jsdelivr.net/gh/AushevAhmad/awesome-css@modules/custom-bar-prompt.css");
+:root {
+    --image-link: url("https://cdn.discordapp.com/emojis/1135700464596431070.webp?size=96&quality=lossless");
+    --prompt-text: "be silly :3";
+}
+.icon_a08117, /* Hide Dropdown icon in categories */ 
+.linkBottom_d8bfb3, /* Hide set channel status info */ 
+.grow_dd4f85.colorBrand_dd4f85.lookBlank_dd4f85.button_dd4f85.button_ae6b8e, /* Remove invite to vc button */ 
+.children_d8bfb3, /* No invite to channel button */ 
+[class*=channelTextAreaDisabled], /* Hide chat box if you have no permissions to write in the channel */ 
+[aria-label="Select emoji"], /* Hide emoji picker */
+[class*="biteSize_"] :is([aria-label="Add Friend"], [aria-label="Friends"]), /* Why would I want to add you or know I'm your friend? */ 
+[aria-label="Show User Profile (Unavailable)"],
+[aria-label="Add a Server"], /* Hide add a server button */
+[class^=profileEffect], /* No profile effects */
+[class^=avatarDecoration] /* No avatar decorations */ { 
+    display: none !important;
+}
+@font-face {
+    font-family: "Dashless";
+    src: url("https://vendicated.github.io/random-files/Dashless.woff2") format("woff2");
+}
+[data-list-item-id^=channels___], /* channel list */
+[class^=titleWrapper] > h1, /* top bar with topic */
+[class^=resultChannel], /* channel name in search */
+[class^=channelMention], /* channel mentions in chat */
+[class^=placeholder][class*=slateTextArea] /* "Send a message in #blah" */
+{
+    font-family: "Dashless", var(--font-primary);
+}
